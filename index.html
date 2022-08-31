@@ -86,7 +86,8 @@
 					<p> <a class="btn btn-wechat wxminipp"><i class="icon-wechat"></i> WeChat</a>
 						<a class="btn btn-qq qqminipp"><i class="icon-qq"></i> QQ / TIM</a>
 					</p>
-					<p id="lang18" style="color: #FAF7AE;">由于QQ小程序审核方强制要求改名，所以QQ端小程序名称改为“布丁天气” (ーー゛)</p>
+					<p id="lang18" style="font-size: 14px; color: #FAF7AE;">由于QQ小程序审核方强制要求改名，所以QQ端小程序名称改为“布丁天气” (ーー゛)</p>
+					<p id="lang19" style="font-size: 14px; color: #fff;">由于 <a href="https://developers.weixin.qq.com/community/minihome/doc/0000a680588d3891fa2ec250c51401" target="_blank">微信</a> / <a href="https://cloud.tencent.com/document/faq/876/76378" target="_blank">QQ</a> 小程序在 2022 年 8 月 8 日强制调整了云开发的计费模式，v3 版小程序将移除所有云功能，这会导致一些功能下线。后续会通过渐进式 PWA 应用回归。</p>
 				</div>
 			</div>
 			<div class="col-md-6 col-sm-6">
@@ -262,6 +263,7 @@
 			document.getElementById("lang16").innerHTML = lang16[lang_flag]
 			document.getElementById("lang17").innerHTML = lang17[lang_flag]
 			document.getElementById("lang18").innerHTML = lang18[lang_flag]
+			document.getElementById("lang19").innerHTML = lang19[lang_flag]
         }
 
 		let lang1 = ["获取城市天气小程序", "Get CityWeather"];
@@ -282,6 +284,7 @@
 		let lang16 = ["用心倾听", "Good to Talk"];
 		let lang17 = ["在个人中心可以看见问题反馈，你可以在这里和开发者进行交流互动。", "You can see the issue feedback in the personal center, where you can communicate and interact with the developers."];
 		let lang18 = ["由于QQ小程序审核方强制要求改名，所以QQ端小程序名称改为“布丁天气” (ーー゛)", "Because the QQ applet reviewer forced to change the name, so the QQ applet name to Pudding Weather (ーー゛)"];
+		let lang19 = ["由于 <a href='https://developers.weixin.qq.com/community/minihome/doc/0000a680588d3891fa2ec250c51401' target='_blank'>微信</a> / <a href='https://cloud.tencent.com/document/faq/876/76378' target='_blank'>QQ</a> 小程序在 2022 年 8 月 8 日强制调整了云开发的计费模式，v3 版小程序将移除所有云功能，这会导致一些功能下线。后续会通过渐进式 PWA 应用回归。", "Due to the official adjustment of the cloudbase billing for <a href='https://developers.weixin.qq.com/community/minihome/doc/0000a680588d3891fa2ec250c51401' target='_blank'>WeChat</a> and <a href='https://cloud.tencent.com/document/faq/876/76378' target='_blank'>QQ</a> mini programs on August 8, 2022, v3 mini program will remove all cloud development features, which will cause some features to go offline. Later returned via PWA."];
 	</script>
 
 	<script type="text/javascript" src="js/sweetalert.min.js"></script>
